@@ -1,0 +1,15 @@
+<suite name="selectableTests" parallel="classes" thread-count="2">
+    <test name="selectableTestsOnChromeDriver">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="selectable.WA_005_SE_01_SER_01"/>
+        </classes>
+    </test>
+
+    <test name="draggableTestsOnEdgeDriver">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="selectable.WA_005_SE_01_SER_01"/>
+        </classes>
+    </test>
+</suite>

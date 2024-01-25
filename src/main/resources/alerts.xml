@@ -1,0 +1,15 @@
+<suite name="alertsTests" parallel="classes" thread-count="1">
+    <test name="alertsTestsOnChromeDriver">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="alerts.WA_008_AL_01_ALT_01"/>
+        </classes>
+    </test>
+
+    <test name="draggableTestsOnEdgeDriver">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="alerts.WA_008_AL_01_ALT_01"/>
+        </classes>
+    </test>
+</suite>

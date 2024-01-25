@@ -1,0 +1,15 @@
+<suite name="iframeTests" parallel="classes" thread-count="2">
+    <test name="iframeTestsOnChromeDriver">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="iframe.WA_009_IF_01_NIF_01"/>
+        </classes>
+    </test>
+
+    <test name="draggableTestsOnEdgeDriver">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="iframe.WA_009_IF_01_NIF_01"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,17 @@
+<suite name="droppableTests" parallel="classes" thread-count="2">
+    <test name="droppableTestsOnChromeDriver">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="droppable.WA_003_DRO_01_AC_01"/>
+            <class name="droppable.WA_004_DRO_02_RDP_01"/>
+        </classes>
+    </test>
+
+    <test name="draggableTestsOnEdgeDriver">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="droppable.WA_003_DRO_01_AC_01"/>
+            <class name="droppable.WA_004_DRO_02_RDP_01"/>
+        </classes>
+    </test>
+</suite>

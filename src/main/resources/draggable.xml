@@ -1,0 +1,17 @@
+<suite name="draggableTests" parallel="classes" thread-count="2">
+    <test name="draggableTestsOnChromeDriver">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="draggable.WA_001_DR_01_CM_01"/>
+            <class name="draggable.WA_002_DR_02_HL_01"/>
+        </classes>
+    </test>
+
+    <test name="draggableTestsOnEdgeDriver">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="draggable.WA_001_DR_01_CM_01"/>
+            <class name="draggable.WA_002_DR_02_HL_01"/>
+        </classes>
+    </test>
+</suite>
