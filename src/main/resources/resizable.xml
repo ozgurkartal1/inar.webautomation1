@@ -1,0 +1,17 @@
+<suite name="resizableTests" parallel="classes" thread-count="2">
+    <test name="resizableTestsOnChromeDriver">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="resizable.WA_006_RES_01_SR_01"/>
+            <class name="resizable.WA_007_RES_02_TA_01"/>
+        </classes>
+    </test>
+
+    <test name="draggableTestsOnEdgeDriver">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="resizable.WA_006_RES_01_SR_01"/>
+            <class name="resizable.WA_007_RES_02_TA_01"/>
+        </classes>
+    </test>
+</suite>
